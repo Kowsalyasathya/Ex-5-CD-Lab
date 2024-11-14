@@ -15,7 +15,7 @@ To write a YACC program to recognize the grammar anb where n>=10.
 # PROGRAM:
 ### Name: Kowsalya M
 ### Register No: 212222230069
-### Grammer.l:
+## Grammer.l:
 ```
 %{
 #include "y.tab.h"
@@ -31,7 +31,7 @@ int yywrap() {
     return 1;
 }
 ```
-### Grammer.y:
+## Grammer.y:
 ```
 %{
 #include <stdio.h>
